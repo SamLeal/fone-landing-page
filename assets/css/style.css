@@ -1,0 +1,8 @@
+:root {
+    --vermelho: #ca3b3a;
+    --montserrat: 'Montserrat', sans-serif;
+}
+
+body {
+    font-family: var(--montserrat);
+}

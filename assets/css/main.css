@@ -1,0 +1,58 @@
+.main__container {
+    margin: 5vw  15vw 0rem 15vw;
+}
+
+.main__img {
+    width: 100%;
+}
+
+.box__title {
+    font-family: 'Montserrat';
+    font-size: 7vw;
+    color: var(--vermelho);
+    font-weight: 700;
+    text-transform: uppercase;
+
+    padding: 10vw 0px 4vw 0px;
+}
+
+.main__box  {
+    width: 100%;
+}
+
+.box__div {
+    margin-bottom: 5vw;
+}
+
+.box__subtitle {
+    font-weight: 700;
+    font-size: 3.5vw;
+}
+
+.box__text {
+    color: gray;
+    font-size: 3.5vw;
+}
+
+.box__purchase {
+    display: flex;
+}
+
+.box__itemPrice {
+    font-size: 7vw;
+    font-weight: bold;
+    margin-right: 2vw;
+    padding-top: 2vw;
+}
+
+.box__button {
+    background-color: var(--vermelho);
+    color: white;
+    font-size: 3vw;
+    text-transform: uppercase;
+    
+
+    border: none;
+    height: 10vw;
+    width: 35vw;
+}
