@@ -1,0 +1,50 @@
+.footer {
+
+
+    background-color: hsl(56, 75%, 92.2%);
+
+
+    margin: 0vw 5vw 0vw 5vw ;
+    border-radius: 10px;
+    
+}
+
+.footer__box{
+    display: flex;
+    margin-left: 10vw;
+
+}
+
+.blue__img {
+    padding-top: 4vw;
+    font-size: 6vw;
+    padding-right: 5.5vw;
+}
+
+.blue__text {
+    margin-top: 2.5vw;
+}
+
+.fa-wave-square {
+    padding-top: 2vw;
+    background-color: hsl(56, 75%, 92.2%);
+    font-size: 4vw;
+    padding-right: 5vw;
+}
+
+.battery__img {
+    background-color: hsl(56, 75%, 92.2%);
+    font-size: 4vw;
+    padding-right: 5vw;
+}
+
+
+
+.footer__text {
+    padding-top: 2vw;
+    width: 80%;
+
+    font-size: 3vw;
+    font-weight: 700;
+    line-height: 5vw;
+}

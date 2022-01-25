@@ -1,5 +1,5 @@
 .main__container {
-    margin: 5vw  15vw 0rem 15vw;
+    margin: 5vw  15vw 20vw 15vw;
 }
 
 .main__img {
@@ -16,6 +16,10 @@
     padding: 10vw 0px 4vw 0px;
 }
 
+.box__star {
+    padding-top: 2.5vw;
+}
+
 .main__box  {
     width: 100%;
 }
@@ -30,7 +34,7 @@
 }
 
 .box__text {
-    color: gray;
+    color: #707070;
     font-size: 3.5vw;
 }
 
