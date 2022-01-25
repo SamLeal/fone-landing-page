@@ -33,6 +33,7 @@
 }
 
 .battery__img {
+    padding-top: 5vw;
     background-color: hsl(56, 75%, 92.2%);
     font-size: 4vw;
     padding-right: 5vw;
