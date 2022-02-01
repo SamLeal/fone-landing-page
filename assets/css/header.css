@@ -7,10 +7,10 @@
 
 .header__img {
     height: 10vw;
-    padding: 10px 0px 0px 20px;
+    padding: 2vw 0px 0px 20px;
 }
 
-.header__nav {
+.header__nav--icon {
     padding-right: 2vw;
 }
 
@@ -25,5 +25,44 @@
     background-color: white;
     border: none;
     padding-right: 4.5vw;
+}
+
+.header__nav--text {
+    display: none;
+}
+
+@media screen and (min-width: 992px) {
+    .header {
+        margin-bottom: 0px;
+    }
+    
+
+    .header__nav--text{
+        display: flex;
+        align-items: center;
+    }
+    
+    .header__nav--a {
+        padding-right: 1.5rem;
+
+        font-size: 1.3rem;
+        font-weight: 500;
+    }
+
+    .header__img {
+        height: 60px;
+        padding: 10px 0px 0px 4vw;
+    }
+
+    .fas{
+        padding-top: 15px;
+        background-color: white;
+        font-size: 1.5rem;
+        color: gray;
+    }
+
+    .header__button {
+        padding-right: 1rem;
+    }
 }
 
